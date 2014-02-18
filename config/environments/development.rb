@@ -27,7 +27,7 @@ LearnRails::Application.configure do
   # number of complex assets.
   config.assets.debug = true
 
-  config.action_mailer.smpt_settings = {
+  config.action_mailer.smtp_settings = {
     address: "smtp.gmail.com",
     port: 587,
     domain: ENV["DOMAIN_NAME"],
